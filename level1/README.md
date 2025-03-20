@@ -1,7 +1,7 @@
 # Reverse Engineering a Password-Protected Program with GDB
 
 ## Overview
-This guide walks you through analyzing an assembly-level password-protected program using GDB. The goal is to reverse-engineer the password by examining how the program processes user input and performs string comparison.
+The goal is to reverse-engineer the password by examining how the program processes user input and performs string comparison.
 
 ## Steps
 
