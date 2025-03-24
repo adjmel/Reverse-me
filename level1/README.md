@@ -40,7 +40,7 @@ The goal is to reverse-engineer the password by examining how the program proces
    ```sh
    info registers
    ```
-   - `$eax` and `$ecx` are used to store arguments for `strcmp`.
+   - `$edx` and `$ecx` are used to store arguments for `strcmp`.
    - Other registers serve different roles (e.g., stack management, counters).
 
 7. **Examine Memory Addresses:**
