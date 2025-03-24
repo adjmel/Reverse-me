@@ -38,6 +38,7 @@ This guide details how to analyze a more complex password-protected program usin
      0010110897,98,101114101
      ```
    - This ensures the program reads each segment correctly and reconstructs "delabere".
+   - Reconstructing the word "delabere": https://codebeautify.org/ascii-to-text
 
 ## Final Password
 ```
