@@ -37,8 +37,9 @@ This guide details how to analyze a more complex password-protected program usin
      ```
      0010110897,98,101114101
      ```
-   - This ensures the program reads each segment correctly and reconstructs "delabere".
-   - Reconstructing the word "delabere": https://codebeautify.org/ascii-to-text
+   - This ensures the program reads each segment correctly and reconstructs "delabere": https://codebeautify.org/ascii-to-text
+   - Warning : The first character of local_21 is already initialized to 'd'! -> "local_21[0] = 'd';"
+   So, the first triplet must be 101 for the rest of the characters to align correctly.
 
 ## Final Password
 ```
