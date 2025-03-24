@@ -50,7 +50,7 @@ The goal is to reverse-engineer the password by examining how the program proces
    - Displays the user-inputted string (e.g., `coucou`).
    
    ```sh
-   x/s $eax
+   x/s $edx
    ```
    - Reveals the secret password stored in the program (e.g., `__stack_check`).
 
